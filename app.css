@@ -1,13 +1,43 @@
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
 .top {
-  padding: 250px;
+  padding: 350px 250px;
+}
+
+.bottom {
+  padding-bottom: 200px;
+}
+
+.about__myPic {
+  width: 400px; 
+  height: auto; 
+  margin: 50px 50px 0;
 }
 
 .navBrand__bg {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
 }
 
 #myTitle {
@@ -62,7 +92,7 @@ figcaption {
 
 .figure__img {
   width: 400px;
-  height: auto;
+  height: 260px;
   border-radius: 12px;
 }
 
@@ -98,11 +128,15 @@ figure:hover .figcaption__noHover {
 @media only screen and (max-width: 990px) {
   .figure__img {
     width: 70vw;
+    height: 45vw;
   }
   figure {
     max-width: 70vw;
   }
   .top {
-    padding: 100px;
+    padding: 400px 0px;
+  }
+  #about {
+    flex-direction: column;
   }
 }
