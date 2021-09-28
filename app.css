@@ -23,8 +23,8 @@ p {
 }
 
 .about__myPic {
-  width: 400px; 
-  height: auto; 
+  width: 400px;
+  height: auto;
   margin: 50px 50px 0;
 }
 
@@ -56,11 +56,13 @@ footer {
   padding: 100px 0px;
 }
 
-a, .navBrand__bg {
+a,
+.navBrand__bg {
   transition: 0.45s ease-in-out;
 }
 
-a:hover, .navBrand__bg:hover {
+a:hover,
+.navBrand__bg:hover {
   opacity: 0.6;
 }
 
@@ -86,8 +88,8 @@ figcaption {
 }
 
 .figcaption__hover {
-    display: none;
-    opacity: 0;
+  display: none;
+  opacity: 0;
 }
 
 .figure__img {
@@ -101,7 +103,7 @@ figure:hover .figure__img {
 }
 
 figure:hover .figcaption__hover {
-  display: block; 
+  display: block;
   opacity: 100%;
 }
 
@@ -118,7 +120,7 @@ figure:hover .figcaption__noHover {
 }
 
 .middle__about {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 
 .figcaption__noHover__h2 {
