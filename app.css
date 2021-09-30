@@ -123,7 +123,8 @@ figure:hover .figcaption__noHover {
   margin-bottom: 25px;
 }
 
-.figcaption__noHover__h2 {
+.figcaption__noHover__h2,
+.figcaption__noHover__p {
   text-shadow: 2px 2px 2px black;
 }
 
