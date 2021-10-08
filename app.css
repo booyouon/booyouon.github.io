@@ -11,7 +11,7 @@ h3 {
 }
 
 p {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 .top {
@@ -93,13 +93,15 @@ figcaption {
 }
 
 .figure__img {
+  max-width: 100%;
   width: 400px;
   height: 260px;
   border-radius: 12px;
+  object-fit: cover;
 }
 
 figure:hover .figure__img {
-  opacity: 0.3;
+  filter: brightness(0.4) grayscale(0.7);
 }
 
 figure:hover .figcaption__hover {
@@ -130,11 +132,11 @@ figure:hover .figcaption__noHover {
 
 @media only screen and (max-width: 990px) {
   .figure__img {
-    width: 70vw;
-    height: 45vw;
+    width: 80vw;
+    height: 70vw;
   }
   figure {
-    max-width: 70vw;
+    max-width: 90vw;
   }
   .top {
     padding: 400px 0px;
