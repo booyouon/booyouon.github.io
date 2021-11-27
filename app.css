@@ -1,3 +1,9 @@
+*,
+body,
+html {
+  transition: 0.8s;
+}
+
 h1 {
   font-size: 3.5rem;
 }
@@ -133,7 +139,7 @@ figure:hover .figcaption__noHover {
 @media only screen and (max-width: 990px) {
   .figure__img {
     width: 80vw;
-    height: 70vw; 
+    height: 70vw;
   }
   figure {
     max-width: 90vw;
